@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left,rgba(0, 255, 242, 0.281),rgba(0, 255, 170, 0.315)),url("wp6549866-angry-vishnu-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: blink 2s linear infinite;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    background: linear-gradient(rgb(255, 81, 0),yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@keyframes blink {
+    from{
+        background-image: linear-gradient(to left,rgba(0, 255, 242, 0.281),rgba(0, 255, 170, 0.315)),url("wp6549866-angry-vishnu-wallpapers.jpg");
+    }
+    to{
+        background-image: url(wp6549866-angry-vishnu-wallpapers.jpg);
+
+    }
+    
+}
+button{
+    background-color: rgb(184, 243, 96);
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+    font-weight: 800;
+}
